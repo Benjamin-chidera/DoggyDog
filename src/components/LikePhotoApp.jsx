@@ -48,8 +48,8 @@ export const LikePhotoApp = () => {
           />
 
           {show && (
-            <div className=" absolute top-[50%] right-[40%]">
-              <FaHeart size={40} color="red" />
+            <div className=" absolute top-[50%] right-[40%] fade-in-tl">
+              <FaHeart size={40} color="red" onAnimationEnd={"fade-in-tl"}/>
             </div>
           )}
         </div>
